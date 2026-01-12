@@ -1,0 +1,58 @@
+body, header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header p {
+    width: 55rem;
+}
+
+main {
+    margin: 100px;
+}
+
+h1, header p {
+    text-align: center;
+}
+/* -------- Classes -------- */
+.cyanLine {
+    height: 3px;
+    width: 60rem;
+    background-color: #4C94D8;
+}
+
+/* ----- Resume Sections ----- */
+/* --- Professional Profile Portion --- */
+#professionalProfileSection {
+
+}
+
+/* --- Technical Skills Portion --- */
+#technicalSkillsSection {
+}
+
+#technicalSkillsSection ul {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.techSkillButton {
+    /* Button Properties */
+    background-color: #60AEE3;
+    width: 75px;
+    margin: 5px;
+    border-radius: 10%;
+
+    /* Text Properties */
+    text-align: center;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+/* --- Education Section --- */
+#educationSection {
+
+}
