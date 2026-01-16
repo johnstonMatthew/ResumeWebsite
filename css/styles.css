@@ -17,6 +17,10 @@ h1, header p {
     text-align: center;
 }
 /* -------- Classes -------- */
+.bold {
+    font-weight: 900;
+}
+
 .cyanLine {
     height: 3px;
     width: 60rem;
@@ -55,4 +59,12 @@ h1, header p {
 /* --- Education Section --- */
 #educationSection {
 
+}
+
+#projectsSection {
+
+}
+
+#workExperienceSection {
+    
 }
