@@ -11,12 +11,14 @@ header p {
 
 main {
     margin: 100px;
+    width: 55rem;
 }
 
 h1, header p {
     text-align: center;
 }
 /* -------- Classes -------- */
+/* --- Text Classes --- */
 .bold {
     font-weight: 900;
 }
@@ -25,6 +27,16 @@ h1, header p {
     height: 3px;
     width: 60rem;
     background-color: #4C94D8;
+}
+
+.dateIndentation {
+    white-space: nowrap;
+}
+
+.workTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 /* ----- Resume Sections ----- */
