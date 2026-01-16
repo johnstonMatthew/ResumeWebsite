@@ -11,16 +11,34 @@ header p {
 
 main {
     margin: 100px;
+    margin-top: 50px;
     width: 55rem;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1, header p {
     text-align: center;
 }
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: Play;
+    color: #0f4761;
+    font-size: 1.5rem;
+}
+
+p, li {
+    font-size: 1.2rem;
+}
+
 /* -------- Classes -------- */
 /* --- Text Classes --- */
 .bold {
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .cyanLine {
