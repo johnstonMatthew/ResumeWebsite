@@ -76,7 +76,7 @@ p, li {
 .techSkillButton {
     /* Button Properties */
     background-color: #60AEE3;
-    width: 75px;
+    width: 6rem;
     margin: 5px;
     border-radius: 10%;
 
@@ -84,6 +84,7 @@ p, li {
     text-align: center;
     color: whitesmoke;
     padding: 5px;
+    text-decoration: none;
 }
 
 /* --- Education Section --- */
